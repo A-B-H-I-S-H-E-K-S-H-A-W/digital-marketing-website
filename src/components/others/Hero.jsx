@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="mt-40">
       <div className="md:px-20 px-6 md:py-24 py-20">
         <div className="w-full min-h-[60vh]">
-          <div className="grid md:grid-cols-[70%_30%] grid-cols-1 gap-4">
+          <div className="grid md:grid-cols-[70%_30%] grid-cols-1 gap-10 md:gap-0">
             <div className="text-center max-w-4xl mx-auto">
               <h1 className="md:text-6xl text-3xl font-semibold">
                 Not Just{" "}
@@ -15,10 +15,10 @@ const Hero = () => {
                 >
                   Marketing
                 </GradientText>{" "}
-                we redefine
+                We Redefine
               </h1>
               <h1 className="md:text-6xl text-3xl font-semibold">
-                and transform your{" "}
+                And Transform Your{" "}
                 <GradientText
                   className={"bg-gradient-to-l from-ut-orange to-french "}
                 >
