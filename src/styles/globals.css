@@ -49,7 +49,7 @@
   --color-main-background: var(--main-background);
   --color-persian: var(--persian);
   --color-tekhelet: var(--tekhelet);
-  --color-french-violet: var(--french-violet);
+  --color-french: var(--french);
   --color-amethyst: var(--amethyst);
 }
 
@@ -60,9 +60,9 @@
   --princeton-orange: #ff9100ff;
   --orange-peel: #ff9e00ff;
   --main-background: #0b0219;
-  --persian: #3c096cff;
+  --persian: #240046;
   --tekhelet: #5a189aff;
-  --french-violet: #7b2cbfff;
+  --french: #7b2cbfff;
   --amethyst: #9d4eddff;
   /* main */
   --radius: 0.625rem;
@@ -106,9 +106,9 @@
   --princeton-orange: #ff9100ff;
   --orange-peel: #ff9e00ff;
   --main-background: #0b0219;
-  --persian: #3c096cff;
+  --persian: #240046;
   --tekhelet: #5a189aff;
-  --french-violet: #7b2cbfff;
+  --french: #7b2cbfff;
   --amethyst: #9d4eddff;
   /* main */
   --background: oklch(0.145 0 0);
