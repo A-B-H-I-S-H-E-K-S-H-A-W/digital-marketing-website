@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/others/Navbar";
 import "../styles/globals.css";
 import { Particles } from "@/components/Particles";
+import Hero from "@/components/others/Hero";
 
 export default function Home() {
   return (
@@ -9,11 +10,12 @@ export default function Home() {
         <Particles
           className="absolute inset-0 z-0"
           quantity={50}
-          ease={10}
+          ease={50}
           color={"#ffffff"}
           refresh
         />
         <Navbar />
+        <Hero />
       </div>
     </>
   );

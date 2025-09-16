@@ -29,7 +29,7 @@ export function Navbar() {
     <div className="relative w-full flex items-center justify-center">
       <div
         className={cn(
-          "fixed top-10 inset-x-0 max-w-4xl mx-auto z-50 px-4 md:px-0"
+          "absolute top-12 inset-x-0 max-w-5xl mx-auto z-50 px-4 md:px-0"
         )}
       >
         <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4 ">
