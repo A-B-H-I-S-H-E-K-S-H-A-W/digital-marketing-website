@@ -4,11 +4,11 @@ import GradientText from "../ui/GradientText";
 const Hero = () => {
   return (
     <section className="mt-40">
-      <div className="px-20 py-24">
+      <div className="md:px-20 px-6 md:py-24 py-20">
         <div className="w-full min-h-[60vh]">
-          <div className="grid grid-cols-[70%_30%]">
+          <div className="grid md:grid-cols-[70%_30%] grid-cols-1 gap-4">
             <div className="text-center max-w-4xl mx-auto">
-              <h1 className="text-6xl font-semibold">
+              <h1 className="md:text-6xl text-3xl font-semibold">
                 Not Just{" "}
                 <GradientText
                   className={"bg-gradient-to-l from-ut-orange to-french "}
@@ -17,7 +17,7 @@ const Hero = () => {
                 </GradientText>{" "}
                 we redefine
               </h1>
-              <h1 className="text-6xl font-semibold">
+              <h1 className="md:text-6xl text-3xl font-semibold">
                 and transform your{" "}
                 <GradientText
                   className={"bg-gradient-to-l from-ut-orange to-french "}
@@ -26,7 +26,7 @@ const Hero = () => {
                 </GradientText>
               </h1>
               <div className="max-w-2xl mx-auto">
-                <p className="mt-5 text-lg">
+                <p className="mt-5 text-lg text-foreground/50">
                   It's more than a marketing agency – we combine creativity and
                   insight to deliver marketing that reaches the right audience
                   and drives meaningful growth.

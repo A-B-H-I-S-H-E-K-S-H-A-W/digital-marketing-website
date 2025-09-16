@@ -35,7 +35,7 @@ export function Navbar() {
         <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4 ">
           <div>
             <Link href={"/"}>
-              <Image src={logo} alt="logo" className="w-50" />
+              <Image src={logo} alt="logo" className="md:w-50 w-40" />
             </Link>
           </div>
           <div className="space-x-6 hidden md:block">
