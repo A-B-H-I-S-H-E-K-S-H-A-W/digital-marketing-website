@@ -3,6 +3,8 @@ import React from "react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Button from "../ui/Button";
+import Image from "next/image";
+import logo from "@/assets/logo.png";
 
 const navLinks = [
   {
@@ -31,8 +33,12 @@ export function Navbar() {
         )}
       >
         <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4 ">
-          <div>Logo</div>
-          <div className="space-x-4 hidden md:block">
+          <div>
+            <Link href={"/"}>
+              <Image src={logo} alt="logo" className="w-50" />
+            </Link>
+          </div>
+          <div className="space-x-6 hidden md:block">
             {navLinks.map(({ id, item, link }) => (
               <MenuItem key={id} link={link} item={item}></MenuItem>
             ))}
