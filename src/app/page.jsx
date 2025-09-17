@@ -2,6 +2,7 @@ import { Navbar } from "@/components/others/Navbar";
 import "../styles/globals.css";
 import { Particles } from "@/components/Particles";
 import Hero from "@/components/others/Hero";
+import About from "@/components/others/About";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         />
         <Navbar />
         <Hero />
+        <About />
       </div>
     </>
   );
