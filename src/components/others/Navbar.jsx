@@ -19,7 +19,7 @@ export function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const heroHeight = document.getElementById("hero")?.offsetHeight || 0;
-      setIsAfterHero(window.scrollY > heroHeight - window.innerHeight / 2);
+      setIsAfterHero(window.scrollY > heroHeight - window.innerHeight / 4);
     };
 
     handleScroll();
@@ -38,7 +38,7 @@ export function Navbar() {
             }}
             transition={{ duration: 0.6, ease: "easeInOut" }}
             className={cn(
-              "inset-x-0 max-w-5xl fixed bottom-12 mx-auto z-50 px-4 md:px-0 transition-all duration-500 ease-in-out"
+              "inset-x-0 max-w-5xl fixed bottom-12 mx-auto z-10 px-4 md:px-0 transition-all duration-500 ease-in-out"
             )}
           >
             <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4">
@@ -62,7 +62,7 @@ export function Navbar() {
         <>
           <div
             className={cn(
-              "inset-x-0 max-w-5xl absolute top-12 mx-auto z-50 px-4 md:px-0 transition-all duration-500 ease-in-out"
+              "inset-x-0 max-w-5xl absolute top-12 mx-auto z-10 px-4 md:px-0 transition-all duration-500 ease-in-out"
             )}
           >
             <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4">

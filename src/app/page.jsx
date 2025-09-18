@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import { Particles } from "@/components/Particles";
 import Hero from "@/components/others/Hero";
 import About from "@/components/others/About";
+import CardPopUp from "@/components/ui/CardPopUp";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         />
         <Navbar />
         <Hero />
+        <CardPopUp />
         <About />
       </div>
     </>

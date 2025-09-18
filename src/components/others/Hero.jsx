@@ -4,8 +4,8 @@ import GradientText from "../ui/GradientText";
 const Hero = () => {
   return (
     <section className="mt-40" id="hero">
-      <div className="md:px-20 px-6 md:py-16 py-20">
-        <div className="w-full min-h-[60vh]">
+      <div className="md:px-20 px-6 md:pt-16 pt-20">
+        <div className="w-full min-h-[40vh]">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="md:text-6xl text-3xl font-semibold">
               Not Just{" "}
