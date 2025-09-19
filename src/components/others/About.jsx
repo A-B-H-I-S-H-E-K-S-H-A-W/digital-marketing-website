@@ -55,7 +55,7 @@ const cardData = [
 
 export default function About() {
   return (
-    <section className="py-16 md:py-32">
+    <section className="py-20 md:py-32">
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl space-y-6 text-center">
           <h2 className="text-center text-4xl font-semibold lg:text-5xl">
