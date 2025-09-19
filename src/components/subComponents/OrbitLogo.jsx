@@ -14,19 +14,19 @@ export function OrbitLogo() {
         <Image src={youtubeLogo} alt="logo" />
         <Icons.whatsapp />
       </OrbitingCircles>
-      <OrbitingCircles iconSize={30} radius={100} reverse speed={2}>
+      <OrbitingCircles iconSize={30} radius={100} reverse speed={1.4}>
         <Image src={googleAdsLogo} alt="logo" />
         <Icons.whatsapp />
         <Image src={youtubeLogo} alt="logo" />
         <Image src={instaLogo} alt="logo" />
       </OrbitingCircles>
-      <OrbitingCircles iconSize={35} radius={220} reverse speed={2.2}>
+      <OrbitingCircles iconSize={35} radius={220} reverse speed={1.2}>
         <Image src={youtubeLogo} alt="logo" />
         <Icons.whatsapp />
         <Image src={googleAdsLogo} alt="logo" />
         <Image src={instaLogo} alt="logo" />
       </OrbitingCircles>
-      <OrbitingCircles iconSize={50} radius={280} reverse speed={2.5}>
+      <OrbitingCircles iconSize={50} radius={280} reverse speed={1.7}>
         <Image src={youtubeLogo} alt="logo" />
         <Image src={googleAdsLogo} alt="logo" />
         <Icons.whatsapp />

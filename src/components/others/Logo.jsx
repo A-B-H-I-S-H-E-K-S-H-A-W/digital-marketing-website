@@ -12,6 +12,13 @@ const Logo = () => {
           </GradientText>{" "}
           Through Online Platforms
         </h2>
+        <div className="max-w-2xl mx-auto">
+          <p className="mt-5 text-lg text-foreground/50">
+            Unlock your business potential by embracing online platforms. Social
+            media and digital ads amplify reach, engage targeted audiences, and
+            drive measurable growth.
+          </p>
+        </div>
       </div>
       <OrbitLogo />
     </div>
