@@ -6,14 +6,14 @@ import { motion } from "framer-motion";
 const videos = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285738/When_Maggie_was_banned_...._maggie_nestle_noodles_koreannoddle_chickenmaggie_marketing_s_puvukz.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285708/Never_buy_ice_cream_franchise_until_hoccoamchi_hoccoicecream_startup_marketing_business_ca_js2h7n.mp4",
     alt: "Mobile-1",
     delay: 1.2,
     className: "top-20 z-10 left-[calc(30%-10rem)]",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285708/Never_buy_ice_cream_franchise_until_hoccoamchi_hoccoicecream_startup_marketing_business_ca_js2h7n.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285738/When_Maggie_was_banned_...._maggie_nestle_noodles_koreannoddle_chickenmaggie_marketing_s_puvukz.mp4",
     alt: "Mobile-2",
     delay: 2.2,
     className: "z-20 left-[calc(50%-10rem)]",
