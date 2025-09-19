@@ -4,6 +4,7 @@ import { Particles } from "@/components/Particles";
 import Hero from "@/components/others/Hero";
 import About from "@/components/others/About";
 import CardPopUp from "@/components/ui/CardPopUp";
+import Logo from "@/components/others/Logo";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <CardPopUp />
         <About />
+        <Logo />
       </div>
     </>
   );
