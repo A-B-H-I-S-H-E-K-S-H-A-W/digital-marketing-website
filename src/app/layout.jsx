@@ -12,7 +12,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  icons: "/favicon.png",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+  },
   title: "Ace Productions",
   description:
     "Ace Production is a digital marketing platform helping brands grow with social media, ads, and creative strategies to boost online presence and ROI.",
