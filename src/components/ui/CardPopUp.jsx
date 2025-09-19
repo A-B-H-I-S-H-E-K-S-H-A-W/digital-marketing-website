@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const videos = [
   {
     id: 1,
-    src: "/videos/video1.mp4",
+    src: "/videos/video7.mp4",
     alt: "Mobile-1",
     delay: 1.2,
     className: "top-20 z-10 left-[calc(30%-10rem)]",
