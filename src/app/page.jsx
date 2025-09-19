@@ -5,6 +5,7 @@ import Hero from "@/components/others/Hero";
 import About from "@/components/others/About";
 import CardPopUp from "@/components/ui/CardPopUp";
 import Logo from "@/components/others/Logo";
+import { Results } from "@/components/others/Results";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <CardPopUp />
         <About />
         <Logo />
+        <Results />
       </div>
     </>
   );
