@@ -6,6 +6,7 @@ import About from "@/components/others/About";
 import CardPopUp from "@/components/ui/CardPopUp";
 import Logo from "@/components/others/Logo";
 import { Results } from "@/components/others/Results";
+import Footer from "@/components/others/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <About />
         <Logo />
         <Results />
+        <Footer />
       </div>
     </>
   );

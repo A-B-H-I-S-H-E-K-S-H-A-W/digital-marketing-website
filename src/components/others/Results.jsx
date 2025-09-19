@@ -2,29 +2,35 @@
 
 import React from "react";
 import GradientText from "../ui/GradientText";
-import { motion } from "framer-motion";
 
 const videos = [
   {
     id: 1,
-    src: "/videos/video7.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285729/We_are_Hiring_video_editor_link_in_bio_Ambani_s_don_t_compete_they_dominate_startup_campacola_qqfiby.mp4",
     alt: "Mobile-1",
     delay: 1.2,
-    className: "z-10",
+    className: "",
   },
   {
     id: 2,
-    src: "/videos/video6.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285708/Never_buy_ice_cream_franchise_until_hoccoamchi_hoccoicecream_startup_marketing_business_ca_js2h7n.mp4",
     alt: "Mobile-2",
     delay: 2.2,
-    className: "z-10",
+    className: "",
   },
   {
     id: 3,
-    src: "/videos/video5.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285697/Snitch_Franchise_snitch.co.in_snitch_offline_snitch_snitchcloths_snitches_sharktank_ein9re.mp4",
     alt: "Mobile-3",
     delay: 1.8,
-    className: "z-10",
+    className: "",
+  },
+  {
+    id: 4,
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758285697/Ramdev_-_The_Money_Making_Baba...._patanjali_patanjalibaba_ramdevbaba_patanjalidantkanti_dan_p5mwrm.mp4",
+    alt: "Mobile-3",
+    delay: 1.8,
+    className: "",
   },
 ];
 
@@ -45,39 +51,21 @@ export const Results = () => {
           </p>
         </div>
       </div>
-      <div className="relative h-[500px] overflow-hidden">
-        <div className="relative z-10 grid grid-cols-4">
-          {videos.map((item) => (
-            <motion.div
-              key={item.id}
-              initial={{ y: "0%" }}
-              animate={{ y: 0 }}
-              transition={{
-                delay: item.delay,
-                duration: 0.8,
-                ease: "easeInOut",
-                type: "spring",
-                stiffness: 50,
-                damping: 16,
-                mass: 1.5,
-              }}
-              style={{
-                willChange: "transform",
-                transform: "translate3d(0,0,0)",
-              }}
-              className={`absolute border border-foreground rounded-2xl w-80 ${item.className}`}
-            >
+      <div className="relative min-h-[600px] overflow-hidden mt-20 md:px-12 sm:px-10 px-5">
+        <div className="relative">
+          <div className={`grid md:grid-cols-4 sm:grid-cols-2 gap-10`}>
+            {videos.map((item) => (
               <video
+                key={item.id}
                 src={item.src}
                 width={320}
                 height={640}
-                autoPlay
                 loop
-                muted
-                className="rounded-2xl w-full h-auto"
+                controls
+                className="rounded-lg w-full h-auto"
               />
-            </motion.div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </div>
