@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import Link from "next/link";
 import Button from "../ui/Button";
 import Image from "next/image";
-import logo from "@/assets/logo.png";
 import { motion } from "framer-motion";
 
 const navLinks = [
@@ -44,7 +43,15 @@ export function Navbar() {
             <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4">
               <div>
                 <Link href={"/"}>
-                  <Image src={logo} alt="logo" className="md:w-50 w-40" />
+                  <Image
+                    src={
+                      "https://res.cloudinary.com/dlp4fpgvg/image/upload/v1758284732/logo_pgzfbo.png"
+                    }
+                    alt="logo"
+                    width={200}
+                    height={10}
+                    className="md:w-50 w-40"
+                  />
                 </Link>
               </div>
               <div className="space-x-6 hidden md:block">
@@ -68,7 +75,15 @@ export function Navbar() {
             <div className="relative rounded-full border border-transparent bg-persian shadow-input flex justify-between items-center px-4 py-4">
               <div>
                 <Link href={"/"}>
-                  <Image src={logo} alt="logo" className="md:w-50 w-40" />
+                  <Image
+                    src={
+                      "https://res.cloudinary.com/dlp4fpgvg/image/upload/v1758284732/logo_pgzfbo.png"
+                    }
+                    alt="logo"
+                    width={200}
+                    height={10}
+                    className="md:w-50 w-40"
+                  />
                 </Link>
               </div>
               <div className="space-x-6 hidden md:block">

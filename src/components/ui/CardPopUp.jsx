@@ -6,21 +6,21 @@ import { motion } from "framer-motion";
 const videos = [
   {
     id: 1,
-    src: "/videos/video7.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758284682/video7_msuwpf.mp4",
     alt: "Mobile-1",
     delay: 1.2,
     className: "top-20 z-10 left-[calc(30%-10rem)]",
   },
   {
     id: 2,
-    src: "/videos/video6.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758284702/video6_pmumsb.mp4",
     alt: "Mobile-2",
     delay: 2.2,
     className: "z-20 left-[calc(50%-10rem)]",
   },
   {
     id: 3,
-    src: "/videos/video5.mp4",
+    src: "https://res.cloudinary.com/dlp4fpgvg/video/upload/v1758284707/video3_wb1ybz.mp4",
     alt: "Mobile-3",
     delay: 1.8,
     className: "top-20 z-10 left-[calc(70%-10em)]",
