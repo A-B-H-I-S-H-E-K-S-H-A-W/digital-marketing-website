@@ -7,6 +7,15 @@ import googleAdsLogo from "../../assets/ads.png";
 export function OrbitLogo() {
   return (
     <div className="relative flex min-h-[700px] w-full flex-col items-center justify-center overflow-hidden">
+      <Image
+        src={
+          "https://res.cloudinary.com/dlp4fpgvg/image/upload/v1758284732/logo_pgzfbo.png"
+        }
+        alt={"Logo"}
+        width={200}
+        height={10}
+        className="md:w-40 w-40"
+      />
       <OrbitingCircles iconSize={40}>
         <Icons.whatsapp />
         <Image src={instaLogo} alt="logo" />

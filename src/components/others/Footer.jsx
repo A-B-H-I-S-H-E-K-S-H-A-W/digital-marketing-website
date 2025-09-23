@@ -45,7 +45,7 @@ export default function Footer() {
         </div>
         <div className="my-8 flex flex-wrap justify-center gap-6 text-sm">
           <Link
-            href="#"
+            href="https://x.com/aceproduction25?s=11"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="X/Twitter"
@@ -85,32 +85,7 @@ export default function Footer() {
             </svg>
           </Link>
           <Link
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Threads"
-            className="text-foreground hover:text-amethyst block"
-          >
-            <svg
-              className="size-10"
-              xmlns="http://www.w3.org/2000/svg"
-              width="1em"
-              height="1em"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="none"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="1.5"
-                d="M19.25 8.505c-1.577-5.867-7-5.5-7-5.5s-7.5-.5-7.5 8.995s7.5 8.996 7.5 8.996s4.458.296 6.5-3.918c.667-1.858.5-5.573-6-5.573c0 0-3 0-3 2.5c0 .976 1 2 2.5 2s3.171-1.027 3.5-3c1-6-4.5-6.5-6-4"
-                color="currentColor"
-              ></path>
-            </svg>
-          </Link>
-          <Link
-            href="#"
+            href="https://www.instagram.com/ace_productions25?igsh=aDFueG12NzRxeWwz&utm_source=qr"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
